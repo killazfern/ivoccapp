@@ -12,7 +12,6 @@ function config($key = '')
         'nav_menu' => [
             '' => 'Home',
             'about-us' => 'About Us',
-            'products' => 'Products',
             'contact' => 'Contact',
 	    'phpinfo' => 'PHP Information'
         ],
