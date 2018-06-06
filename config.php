@@ -8,17 +8,18 @@
 function config($key = '')
 {
     $config = [
-        'name' => 'Simple PHP Website',
+        'name' => 'MFernandes Cloud Computing Application',
         'nav_menu' => [
             '' => 'Home',
             'about-us' => 'About Us',
             'products' => 'Products',
             'contact' => 'Contact',
+	    'phpinfo' => 'PHP Information'
         ],
         'template_path' => 'template',
         'content_path' => 'content',
         'pretty_uri' => false,
-        'version' => 'v2.0',
+        'version' => 'Mark1',
     ];
 
     return isset($config[$key]) ? $config[$key] : null;
