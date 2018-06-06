@@ -11,7 +11,7 @@ function config($key = '')
         'name' => 'MFernandes Cloud Computing Application',
         'nav_menu' => [
             '' => 'Home',
-            'about-us' => 'About Us',
+            'about-me' => 'About Me',
             'contact' => 'Contact',
 	    'phpinfo' => 'PHP Information'
         ],
